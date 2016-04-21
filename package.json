@@ -16,6 +16,7 @@
   "author": "anon",
   "license": "ISC",
   "devDependencies": {
+    "gulp": "^3.9.1",
     "jasmine-core": "^2.4.1",
     "karma": "^0.13.22",
     "karma-chrome-launcher": "^0.2.3",
