@@ -9,8 +9,7 @@ describe("A suite", function () {
     var foo = 0;
     expect(foo).toBe(0);
   });
-    it("sample 3", function () {
-    var foo = 0;
-    expect(foo).toBe(0);
+  it("has angular", function () {
+    expect(angular).not.toBe(null);
   });
 });

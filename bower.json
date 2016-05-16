@@ -1,0 +1,24 @@
+{
+  "name": "karma1",
+  "description": "testing with karma",
+  "main": "index.js",
+  "authors": [
+    "anon"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "karma"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.5",
+    "angular-mocks": "^1.5.5"
+  }
+}
