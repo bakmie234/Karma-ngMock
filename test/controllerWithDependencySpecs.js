@@ -10,7 +10,6 @@ describe("controller with dependencies", function () {
         controller = _$controller_('dcController',{dcService : dcService});
     }));
     it("controller with dependencies specs", function () {
-        dump(angular.mock.dump(controller));
         expect(controller).toBeDefined();
         expect(controller.prop1).toBeDefined();
         expect(controller.prop1).toEqual("prop2");

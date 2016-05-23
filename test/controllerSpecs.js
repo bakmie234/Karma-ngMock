@@ -5,9 +5,6 @@ describe("controller", function () {
         controller = _$controller_('sampleController',{});
     }));
     it("controller specs", function () {
-        dump(angular.mock.dump(controller));
         expect(controller).toBeDefined();
-        // expect(controller.prop1).toBeDefined();
-        // expect(controller.prop1).toEqual("Name");
     });
 });
